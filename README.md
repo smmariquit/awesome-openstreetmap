@@ -13,43 +13,43 @@ We also have a list of <a href="UNMAINTAINED.md">unmaintained projects</a>. If y
 ## Contents
 
 * [Editors](#editors)
-  * [Web Editors](#web-editors)
-  * [Mobile Editors](#mobile-editors)
-  * [Native Editors](#native-editors)
+ * [Web Editors](#web-editors)
+ * [Mobile Editors](#mobile-editors)
+ * [Native Editors](#native-editors)
 * [Tools](#tools)
-  * [Web Tools](#web-tools)
-  * [Mobile Tools](#mobile-tools)
-  * [Native Tools](#native-tools)
-  * [Browser Extensions](#browser-extensions)
+ * [Web Tools](#web-tools)
+ * [Mobile Tools](#mobile-tools)
+ * [Native Tools](#native-tools)
+ * [Browser Extensions](#browser-extensions)
 * [Changeset Tools](#changeset-tools)
-  * [Web Services](#web-services)
+ * [Web Services](#web-services)
 * [Tasking Managers](#tasking-managers)
 * [Maps](#maps)
-  * [Web Maps](#web-maps)
-  * [Mobile Maps](#mobile-maps)
-  * [Generators](#generators)
-  * [Map Styles](#map-styles)
-  * [Map Games](#map-games)
-  * [Goal Tracking](#goal-tracking)
+ * [Web Maps](#web-maps)
+ * [Mobile Maps](#mobile-maps)
+ * [Generators](#generators)
+ * [Map Styles](#map-styles)
+ * [Map Games](#map-games)
+ * [Goal Tracking](#goal-tracking)
 * [Libraries](#libraries)
-  * [C/C++](#cc)
-  * [JavaScript](#javascript)
-  * [Python](#python)
-  * [Java](#java)
+ * [C/C++](#cc)
+ * [JavaScript](#javascript)
+ * [Python](#python)
+ * [Java](#java)
 * [Public APIs](#public-apis)
 * [Miscellaneous](#miscellaneous)
 * [Video](#video)
-  * [Global](#global)
-  * [Regional](#regional)
+ * [Global](#global)
+ * [Regional](#regional)
 * [Additional Resources](#additional-resources)
-  * [Websites](#websites)
-  * [Wiki-Pages](#wiki-pages)
+ * [Websites](#websites)
+ * [Wiki-Pages](#wiki-pages)
 * [Articles](#articles)
 * [Communities](#communities)
-  * [Global Communities](#global-communities)
+ * [Global Communities](#global-communities)
 * [Related lists](#related-lists)
 
-<!-- lint disable no-undefined-references -->
+<!, lint disable no-undefined-references, >
 
 ## Editors
 
@@ -64,14 +64,14 @@ We also have a list of <a href="UNMAINTAINED.md">unmaintained projects</a>. If y
 
 ### Mobile Editors
 
-<!--lint disable no-repeat-punctuation-->
+<!, lint disable no-repeat-punctuation, >
 * [StreetComplete](https://github.com/westnordost/StreetComplete) - App for improving OSM by answering simple questions. ([Android](https://play.google.com/store/apps/details?id=de.westnordost.streetcomplete) / [Wiki](https://wiki.openstreetmap.org/wiki/StreetComplete))
 * [Vespucci](https://vespucci.io/) - Advanced full-data-model editor for Android. ([Android](https://play.google.com/store/apps/details?id=de.blau.android) / [Source Code](https://github.com/MarcusWolschon/osmeditor4android) / [Wiki](https://wiki.openstreetmap.org/wiki/Vespucci))
 * [GoMap!!](http://gomaposm.com) - Feature-rich mobile editor for iOS. ([iOS](https://apps.apple.com/app/id592990211) / [Source Code](https://github.com/bryceco/GoMap) / [Wiki](https://wiki.openstreetmap.org/wiki/Go_Map!!))
 * [Every Door](https://every-door.app) - Android and iOS app that lets you create and edit objects in OpenStreetMap. It supports editing node and polygon features, and creating point features like shops, benches, and building entrances. ([Android](https://play.google.com/store/apps/details?id=info.zverev.ilya.every_door) / [iOS](https://apps.apple.com/app/id1621945342) / [Source Code](https://github.com/zverik/every_door) / [Wiki](https://wiki.openstreetmap.org/wiki/Every_Door))
 * [OSM Go!](https://osmgo.com/) - Android application and a Progressive Web Applications (PWA) for contributing to OpenStreetMap. ([Android](https://play.google.com/store/apps/details?id=fr.dogeo.osmgo) / [Source Code](https://github.com/DoFabien/OsmGo) / [Wiki](https://wiki.openstreetmap.org/wiki/Osm_Go!))
 * [SCEE](https://github.com/Helium314/SCEE) - StreetComplete Expert Edition: A modified version of StreetComplete that allows advanced editing capabilities. ([Android](https://f-droid.org/packages/de.westnordost.streetcomplete.expert/) / [Wiki](https://wiki.openstreetmap.org/wiki/SCEE))
-<!--lint enable no-repeat-punctuation-->
+<!, lint enable no-repeat-punctuation, >
 
 ### Native Editors
 
@@ -86,7 +86,7 @@ We also have a list of <a href="UNMAINTAINED.md">unmaintained projects</a>. If y
 * [OpenMapTiles](https://openmaptiles.org/) - Set of tools for self-hosted vector maps and map services with labels in more than 50 languages. ([Source Code](https://github.com/openmaptiles) / [Wiki](https://wiki.openstreetmap.org/wiki/OpenMapTiles))
 * [OSMNames](http://osmnames.org/) - Geocoding tool ranking places according to the corresponding Wikipedia page popularity. ([Source Code](https://github.com/osmnames/osmnames) / [Wiki](https://wiki.openstreetmap.org/wiki/OSMNames))
 * [overpass-turbo](http://overpass-turbo.eu) - Web based data mining tool for OpenStreetMap using Overpass API. ([Source Code](https://github.com/tyrasd/overpass-turbo) / [Wiki](https://wiki.openstreetmap.org/wiki/Overpass_turbo))
-* [hdyc](http://hdyc.neis-one.org) - Statistics viewer for contributions of any OSM user. ([Wiki](https://wiki.openstreetmap.org/wiki/How_did_you_contribute%3F)) <!-- markdown-link-check-disable-line -->
+* [hdyc](http://hdyc.neis-one.org) - Statistics viewer for contributions of any OSM user. ([Wiki](https://wiki.openstreetmap.org/wiki/How_did_you_contribute%3F)) <!, markdown-link-check-disable-line, >
 * [Osmose](https://osmose.openstreetmap.fr) - QA-tool for fixing problems detected in OpenStreetMap data. ([Source Code](https://github.com/osm-fr?q=osmose) / [Wiki](https://wiki.openstreetmap.org/wiki/Osmose))
 * [opening_hours evaluation tool](https://openingh.openstreetmap.de/evaluation_tool/) - Tool for evaluating `opening_hours` tags. ([Source Code](https://github.com/opening-hours/opening_hours.js))
 * [taginfo](https://taginfo.openstreetmap.org/) - Website displaying information on tags and their usage. ([Source Code](https://github.com/taginfo/taginfo/) / [Wiki](https://wiki.openstreetmap.org/wiki/Taginfo))
@@ -114,7 +114,7 @@ We also have a list of <a href="UNMAINTAINED.md">unmaintained projects</a>. If y
 * [better-osm-org](https://github.com/deevroman/better-osm-org) - Userscript that adds visualization of changesets and many other useful features to OSM website.
 * [OpenStreetMap Tags Editor](https://github.com/Zverik/osmtags-editor) - Adds the ability to edit OSM object tags.
 * [OpenStreetMap Human-readable Wikidata](https://community.openstreetmap.org/t/announcing-human-readable-wikidata-browser-plugins-for-openstreetmap-org/108180) - Shows descriptions and illustrations for wiki tags ([Source Code](https://github.com/ZeLonewolf/osm-wikidata-greasemonkey)).
-* [OpenSwitchMaps](https://github.com/tankaru/OpenSwitchMaps) -  Map service switcher for [Firefox](https://addons.mozilla.org/firefox/addon/openswitchmaps/) and [fork](https://github.com/limex/OpenSwitchMaps-v3) with Manifest v3 support.
+* [OpenSwitchMaps](https://github.com/tankaru/OpenSwitchMaps) - Map service switcher for [Firefox](https://addons.mozilla.org/firefox/addon/openswitchmaps/) and [fork](https://github.com/limex/OpenSwitchMaps-v3) with Manifest v3 support.
 * [JumpToOSMChangesetAnalyzer](https://github.com/tankaru/JumpToOSMChangesetAnalyzer) - Jump from OpenStreetMap changeset to changeset analyzer services.
 
 ## Changeset Tools
@@ -126,8 +126,8 @@ We also have a list of <a href="UNMAINTAINED.md">unmaintained projects</a>. If y
 * [Osm Change Viz](https://resultmaps.neis-one.org/osm-change-viz) - Changeset visualizer displaying information about added/modified/deleted elements in different panels.
 * [changeset-map](http://osmlab.github.io/changeset-map/) - Map visualizing changes in selected changesets. Used in OsmCha. ([Source Code](https://github.com/osmlab/changeset-map))
 * [OSM History Viewer](https://osmhv.openstreetmap.de/) - Changeset visualization. ([Source Code](https://github.com/osmrmhv/osmrmhv))
-* [Who did it?](https://simon04.dev.openstreetmap.org/whodidit/) - Map highlighting recent edits per tile. Provides RSS feeds for watching changes in custom bounding boxes.  ([Source Code](https://github.com/simon04/whodidit) / [Wiki](https://wiki.openstreetmap.org/wiki/Quality_assurance#WhoDidIt))
-<!--Offline, may be because of russia-ukraine-war - * [whodidit](http://zverik.osm.rambler.ru/whodidit/) - Changesets analyzer.-->
+* [Who did it?](https://simon04.dev.openstreetmap.org/whodidit/) - Map highlighting recent edits per tile. Provides RSS feeds for watching changes in custom bounding boxes. ([Source Code](https://github.com/simon04/whodidit) / [Wiki](https://wiki.openstreetmap.org/wiki/Quality_assurance#WhoDidIt))
+<!, Offline, may be because of russia-ukraine-war - * [whodidit](http://zverik.osm.rambler.ru/whodidit/) - Changesets analyzer., >
 * [Osm Change Tiles](https://resultmaps.neis-one.org/osm-change-tiles) - Map highlighting recent edits per tile. Provides RSS feeds for watching changes in custom bounding boxes.
 * [Analytic OSM Tracker](https://github.com/MichaelVL/osm-analytic-tracker)[^selfhosted-only] - Tracker for changesets in your region.
 * [Suspicious OSM Changesets](https://resultmaps.neis-one.org/osm-suspicious) - Find suspicious OSM changesets.
@@ -136,7 +136,6 @@ We also have a list of <a href="UNMAINTAINED.md">unmaintained projects</a>. If y
 * [latest-changes](https://rene78.github.io/latest-changes/#2/15.0/-15.0) - Visualize latest OSM changesets within a certain geographic boundary. Includes a simple vandalism checker. ([Source Code](https://github.com/rene78/latest-changes/))
 * [OSM Inspector](https://tools.geofabrik.de/osmi/?view=geometry&lon=-12.00000&lat=25.00000&zoom=3&baselayer=Geofabrik%20Standard&overlays=long_ways%2Cways_with_long_segments%2Clong_segments%2Cself_intersection_ways%2Cself_intersection_points%2Csingle_node_in_way%2Cduplicate_node_in_way%2Clong_ways%2Cways_with_long_segments%2Clong_segments%2Cself_intersection_ways%2Cself_intersection_points%2Csingle_node_in_way%2Cduplicate_node_in_way) - The OSM Inspector (alias OSMI) is a web based debugging tool for advanced OpenStreetMap users offered by Geofabrik. On a map you can see several themed views, each with several layers, showing specific details of the OSM data, often with highlighted errors.
 * [Nominatim QA](https://nominatim.org/qa/#map=1.81/0.00/0.00) - The Nominatim Data Analyser is a QA tool used to scan the nominatim database and extract suspect data from it. These data are then presented to mappers through a visual interface so that they can correct them directly.
-
 
 ## Tasking Managers
 
@@ -161,7 +160,7 @@ This section is a great place to start if you want to get into improving OpenStr
 * [Show me the way](https://osmlab.github.io/show-me-the-way/) - Live map showing latest changes on aerial imagery. ([Source Code](https://github.com/osmlab/show-me-the-way/) / [Wiki](https://wiki.openstreetmap.org/wiki/Show_Me_The_Way))
 * [OSM In Realtime](https://osm-in-realtime.jwestman.net/) - Visualization of the changes made to OpenStreetMap as they happen. ([Source Code](https://gitlab.com/jwestman/osm-in-realtime) / [Wiki](https://wiki.openstreetmap.org/wiki/OSM-in-realtime))
 * [osm-livechanges](http://live.openstreetmap.fr/) - Near-real-time display of edits in the OpenStreetMap database. ([Source Code](https://github.com/cstenac/osm-livechanges))
-* [indoor=](https://indoorequal.org) - Map for viewing indoor data from OpenStreetMap. ([Wiki](https://wiki.openstreetmap.org/wiki/Indoor%3D)) <!-- markdown-link-check-disable-line -->
+* [indoor=](https://indoorequal.org) - Map for viewing indoor data from OpenStreetMap. ([Wiki](https://wiki.openstreetmap.org/wiki/Indoor%3D)) <!, markdown-link-check-disable-line, >
 * [F4map Demo](https://demo.f4map.com/) - 3D rendering demo of OpenStreetMap data. ([Wiki](https://wiki.openstreetmap.org/wiki/F4_Map))
 * [FacilMap](https://facilmap.org/) - Map with easy possibility to filter for POI types. ([Source Code](https://github.com/FacilMap/facilmap) / [Wiki](https://wiki.openstreetmap.org/wiki/FacilMap))
 * [Straßenraumkarte Neukölln](https://supaplexosm.github.io/strassenraumkarte-neukoelln/?map=micromap) - High-detail micromap of the district "Neukölln" of Berlin, Germany. ([Wiki](https://wiki.openstreetmap.org/wiki/Micromapping#Stra.C3.9Fenraumkarte_Neuk.C3.B6lln))
@@ -204,7 +203,7 @@ This section is a great place to start if you want to get into improving OpenStr
 
 ### Goal Tracking
 
-The services in this category allow you to track personal and fitness goals utilizing OpenStreetMap data.
+The services in this category allow you to track personal and fitness goals using OpenStreetMap data.
 
 * [CityStrides](https://citystrides.com/) - A web platform that encourages the user to run every street in their city. Based on your Strava data it shows where you have and have not run, provides challenges, a leaderboard, and a forum.
 
@@ -213,7 +212,7 @@ The services in this category allow you to track personal and fitness goals util
 ### C/C++
 
 * [libosmium](https://github.com/osmcode/libosmium) - Fast and flexible C++ library for working with OpenStreetMap data. ([Wiki](https://wiki.openstreetmap.org/wiki/Osmium))
-* [OSRM](https://github.com/Project-OSRM/osrm-backend) -  Routing engine for use in C++ applications. ([Wiki](https://wiki.openstreetmap.org/wiki/Open_Source_Routing_Machine))
+* [OSRM](https://github.com/Project-OSRM/osrm-backend) - Routing engine for use in C++ applications. ([Wiki](https://wiki.openstreetmap.org/wiki/Open_Source_Routing_Machine))
 * [mapnik](https://github.com/mapnik/mapnik) - Combines pixel-perfect image output with lightning-fast cartographic algorithms, and exposes interfaces in C++, Python, and Node. ([Wiki](https://wiki.openstreetmap.org/wiki/Mapnik))
 
 ### JavaScript
