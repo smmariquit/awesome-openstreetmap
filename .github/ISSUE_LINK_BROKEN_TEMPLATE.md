@@ -5,7 +5,7 @@ labels: bug
 ---
 Dead links were detected during routine check!
 
-<!-- markdown-link-check-disable -->
+<!, markdown-link-check-disable, >
 See the [linter-log](https://github.com/osmlab/awesome-openstreetmap/actions/runs/{{ env.RUN_ID }}?check_suite_focus=true) for further information.
 
 ----
